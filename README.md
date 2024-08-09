@@ -20,3 +20,5 @@
 [root@master ~]# operator-sdk version
 
 需要注意的是，operator-sdk需要与合适的golang版本一起使用才行。一开始我下的operator-sdk版本是1.36.0，golang版本是1.16。但是在init的时候会报错，后面百度之后发现是因为golang版本不够的原因。后面把golang升级到1.22.5之后顺利init成功（就是demo文件）。
+
+本项目提供了使用的operator-sdk和golang版本。
